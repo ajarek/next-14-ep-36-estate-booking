@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Links = () => {
   const [menu, setMenu] = useState(false)
- 
+
   return (
     <>
       <div
@@ -24,7 +24,7 @@ const Links = () => {
       </div>
       <div
         className={
-          ' flex items-center  justify-between  gap-6   bg-secondary italic'
+          'w-full flex items-center  justify-between  gap-6   bg-secondary italic'
         }
       >
         <Link
@@ -38,10 +38,12 @@ const Links = () => {
             height={40}
             className=''
           />
-          <h1 className='font-semibold text-xl  '>Kołobrzeg <br /> Wynajem Mieszkań</h1>
+          <h1 className='font-semibold text-xl  '>
+            Kołobrzeg <br /> Wynajem Mieszkań
+          </h1>
         </Link>
 
-        <div className='max-lg:hidden flex'>
+        <div className=' max-lg:hidden flex '>
           <div className='flex items-center gap-6'>
             <Link
               href='/menu'
@@ -68,7 +70,6 @@ const Links = () => {
               Kontakt
             </Link>
           </div>
-          
         </div>
         {menu && (
           <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
@@ -96,8 +97,6 @@ const Links = () => {
             >
               Kontakt
             </Link>
-
-           
           </div>
         )}
       </div>
