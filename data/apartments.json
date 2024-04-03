@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Mieszkanie 2 pokojowe",
+    "img": [
+      "/images/id1/image1.webp",
+      "/images/id1/image2.webp",
+      "/images/id1/image3.webp",
+      "/images/id1/image4.webp",
+      "/images/id1/image5.webp"
+    ],
+    "rent": 2300,
+    "location": "Uzdrowisko",
+    "rooms": "2",
+    "floors": 4,
+    "area": 34,
+    "description": "Przestronne, jasne, umeblowane i wyposażone mieszkanie w Dzielnicy Uzdrowiskowej, ul. Kasprowicza 4. 2 pokoje z aneksem kuchennym i dużym balkonem. Mieszkanie zlokalizowane na 4 piętrze w budynku z windą o powierzchni 45m2 z ekspozycją zachodnią. Odległość od morza 300m, bezpośrednie sąsiedztwo obiektów sanatoryjnych i hotelowych. Do centrum (ratusz miejski) 1400m."
+  },
+  {
+    "id": 2,
+    "title": "Mieszkanie 2 pokojowe",
+    "img": [
+      "/images/id2/image1.webp",
+      "/images/id2/image2.webp",
+      "/images/id2/image3.webp",
+      "/images/id2/image4.webp",
+      "/images/id2/image5.webp"
+    ],
+    "rent": 2500,
+    "location": "Radzikowo",
+    "rooms": "2",
+    "floors": 1,
+    "area": 51,
+    "description": "Wynajmę lokal mieszkalny 2 pokojowy po generalnym remoncie na wysokim parterze przy ul. Różanej w Kołobrzegu osiedle Zieleniewo.Apartament można zobaczyć na krótkim filmiku wchodząc na youtube i wpisując - Luksusowy Nowy Apartament Kołobrzeg - Luxus Apartment Kolberg Polen. Dzięki dużym, nowym oknom apartament jest jasny i przestronny.Mieszkanie wykończone w wysokim, luksusowym standardzie. "
+  },
+  {
+    "id": 3,
+    "title": "Mieszkanie 1 pokojowe",
+    "img": [
+      "/images/id3/image1.webp",
+      "/images/id3/image2.webp",
+      "/images/id3/image3.webp",
+      "/images/id3/image4.webp",
+      "/images/id3/image5.webp"
+    ],
+    "rent": 1400,
+    "location": "Uzdrowisko",
+    "rooms": "1",
+    "floors": 4,
+    "area": 27,
+    "description": "Do wynajęcia mieszkanie w centrum Kołobrzegu.Składające się z pokoju połączonego z półotwartą kuchnią, łazienki i przedpokoju.W mieszkaniu 4 duże okna z widokiem na zieleń drzew, bardzo dobrze doświetlające mieszkanie.Łazienka z kabiną prysznicową.Budynek bez windy."
+  },
+  {
+    "id": 4,
+    "title": "Mieszkanie 2 pokojowe",
+    "img": [
+      "/images/id1/image1.webp",
+      "/images/id1/image2.webp",
+      "/images/id1/image3.webp",
+      "/images/id1/image4.webp",
+      "/images/id1/image5.webp"
+    ],
+    "rent": 2300,
+    "location": "Uzdrowisko",
+    "rooms": "2",
+    "floors": 4,
+    "area": 34,
+    "description": "Przestronne, jasne, umeblowane i wyposażone mieszkanie w Dzielnicy Uzdrowiskowej, ul. Kasprowicza 4. 2 pokoje z aneksem kuchennym i dużym balkonem. Mieszkanie zlokalizowane na 4 piętrze w budynku z windą o powierzchni 45m2 z ekspozycją zachodnią. Odległość od morza 300m, bezpośrednie sąsiedztwo obiektów sanatoryjnych i hotelowych. Do centrum (ratusz miejski) 1400m."
+  },
+  {
+    "id": 5,
+    "title": "Mieszkanie 2 pokojowe",
+    "img": [
+      "/images/id2/image1.webp",
+      "/images/id2/image2.webp",
+      "/images/id2/image3.webp",
+      "/images/id2/image4.webp",
+      "/images/id2/image5.webp"
+    ],
+    "rent": 2500,
+    "location": "Radzikowo",
+    "rooms": "2",
+    "floors": 1,
+    "area": 51,
+    "description": "Wynajmę lokal mieszkalny 2 pokojowy po generalnym remoncie na wysokim parterze przy ul. Różanej w Kołobrzegu osiedle Zieleniewo.Apartament można zobaczyć na krótkim filmiku wchodząc na youtube i wpisując - Luksusowy Nowy Apartament Kołobrzeg - Luxus Apartment Kolberg Polen. Dzięki dużym, nowym oknom apartament jest jasny i przestronny.Mieszkanie wykończone w wysokim, luksusowym standardzie. "
+  },
+  {
+    "id": 6,
+    "title": "Mieszkanie 1 pokojowe",
+    "img": [
+      "/images/id3/image1.webp",
+      "/images/id3/image2.webp",
+      "/images/id3/image3.webp",
+      "/images/id3/image4.webp",
+      "/images/id3/image5.webp"
+    ],
+    "rent": 1400,
+    "location": "Uzdrowisko",
+    "rooms": "1",
+    "floors": 4,
+    "area": 27,
+    "description": "Do wynajęcia mieszkanie w centrum Kołobrzegu.Składające się z pokoju połączonego z półotwartą kuchnią, łazienki i przedpokoju.W mieszkaniu 4 duże okna z widokiem na zieleń drzew, bardzo dobrze doświetlające mieszkanie.Łazienka z kabiną prysznicową.Budynek bez windy."
+  }
+]

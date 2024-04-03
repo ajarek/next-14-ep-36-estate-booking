@@ -34,7 +34,7 @@ const Links = () => {
           <Image
             src='/images/logo.png'
             alt='Next.js Logo'
-            width={40}
+            width={46}
             height={40}
             className=''
           />
@@ -46,16 +46,16 @@ const Links = () => {
         <div className=' max-lg:hidden flex '>
           <div className='flex items-center gap-6'>
             <Link
-              href='/menu'
+              href='/'
               className=' px-4'
             >
-              Menu
+              Główna
             </Link>
             <Link
-              href='/serwis'
+              href='/apartments'
               className=' px-4'
             >
-              Serwis
+             Lokale
             </Link>
             <Link
               href='/about-us'
@@ -74,16 +74,16 @@ const Links = () => {
         {menu && (
           <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
             <Link
-              href='/menu'
+              href='/'
               className=' px-4'
             >
-              Menu
+              Główna
             </Link>
             <Link
-              href='/serwis'
+              href='/apartments'
               className=' px-4'
             >
-              Serwis
+              Lokale
             </Link>
             <Link
               href='/about-us'

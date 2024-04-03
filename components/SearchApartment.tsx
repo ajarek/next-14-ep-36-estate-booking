@@ -9,15 +9,25 @@ import {
 import { useState } from 'react'
 import { Button } from './ui/button'
 import { Search } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 const SearchApartment = () => {
+  const router = useRouter()
   const [local, setLocal] = useState('')
-  console.log(local);
-  
+  const [rent, setRent] = useState('')
+  const [rooms, setRooms] = useState('')
+
+  const handleSubmit = (event: any) => {
+    event.preventDefault()
+    router.push('/apartments/?local=' + local + '&rent=' + rent + '&rooms=' + rooms)
+  }
+ 
+
   return (
-    <form className='flex items-center gap-1'>
+    <form className='flex items-center gap-1' onSubmit={handleSubmit}>
       <Select
         defaultValue={local}
         onValueChange={(data) => setLocal(data)}
+        required
       >
         <SelectTrigger className='w-full focus:ring-0'>
           <SelectValue placeholder='Lokalizacja' />
@@ -29,7 +39,11 @@ const SearchApartment = () => {
         </SelectContent>
       </Select>
 
-      <Select>
+      <Select
+        defaultValue={rent}
+        onValueChange={(data) => setRent(data)}
+        required
+      >
         <SelectTrigger className='w-full focus:ring-0'>
           <SelectValue placeholder='Max Czynsz' />
         </SelectTrigger>
@@ -40,7 +54,11 @@ const SearchApartment = () => {
         </SelectContent>
       </Select>
 
-      <Select>
+      <Select
+        defaultValue={rooms}
+        onValueChange={(data) => setRooms(data)}
+        required
+      >
         <SelectTrigger className='w-full focus:ring-0'>
           <SelectValue placeholder='Liczba Pokoi' />
         </SelectTrigger>
