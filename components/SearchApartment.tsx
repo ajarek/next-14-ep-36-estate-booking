@@ -33,9 +33,10 @@ const SearchApartment = () => {
           <SelectValue placeholder='Lokalizacja' />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value='centrum'>Centrum</SelectItem>
-          <SelectItem value='morze'>Pas Nadmorski</SelectItem>
-          <SelectItem value='radzikowo'>Radzikowo</SelectItem>
+          <SelectItem value='Centrum'>Centrum</SelectItem>
+          <SelectItem value='Uzdrowisko'>Uzdrowisko</SelectItem>
+          <SelectItem value='Radzikowo'>Radzikowo</SelectItem>
+          <SelectItem value='Port'>Port</SelectItem>
         </SelectContent>
       </Select>
 

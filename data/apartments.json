@@ -54,51 +54,68 @@
     "id": 4,
     "title": "Mieszkanie 2 pokojowe",
     "img": [
-      "/images/id1/image1.webp",
-      "/images/id1/image2.webp",
-      "/images/id1/image3.webp",
-      "/images/id1/image4.webp",
-      "/images/id1/image5.webp"
+      "/images/id4/image1.webp",
+      "/images/id4/image2.webp",
+      "/images/id4/image3.webp",
+      "/images/id4/image4.webp",
+      "/images/id4/image5.webp"
     ],
-    "rent": 2300,
-    "location": "Uzdrowisko",
+    "rent": 2000,
+    "location": "Centrum",
     "rooms": "2",
-    "floors": 4,
-    "area": 34,
-    "description": "Przestronne, jasne, umeblowane i wyposażone mieszkanie w Dzielnicy Uzdrowiskowej, ul. Kasprowicza 4. 2 pokoje z aneksem kuchennym i dużym balkonem. Mieszkanie zlokalizowane na 4 piętrze w budynku z windą o powierzchni 45m2 z ekspozycją zachodnią. Odległość od morza 300m, bezpośrednie sąsiedztwo obiektów sanatoryjnych i hotelowych. Do centrum (ratusz miejski) 1400m."
+    "floors": 1,
+    "area": 52,
+    "description": "Wynajmę dwupokojowe mieszkanie gotowe do zamieszkania dostępne od zaraz. Mieszkanie położone jest ok. 20 minut piechotą do plaży i ok. 10 minut do centrum. W pobliżu znajduje się szkoła z infrastrukturą sportową, sklepy spożywcze i place zabaw dla dzieci.Mieszkanie ma powierzchnię 51,80 m2 i składa się z łazienki, kuchni, przedpokoju, oraz dwóch pokoi o podobnej powierzchni z wyjściem na balkon z każdego. Do mieszkania przynależy piwnica oraz komórka lokatorska. Zlokalizowane jest na 1 piętrze budynku nie wyposażonego w windę."
   },
   {
     "id": 5,
     "title": "Mieszkanie 2 pokojowe",
     "img": [
-      "/images/id2/image1.webp",
-      "/images/id2/image2.webp",
-      "/images/id2/image3.webp",
-      "/images/id2/image4.webp",
-      "/images/id2/image5.webp"
+      "/images/id5/image1.webp",
+      "/images/id5/image2.webp",
+      "/images/id5/image3.webp",
+      "/images/id5/image4.webp",
+      "/images/id5/image5.webp"
     ],
     "rent": 2500,
-    "location": "Radzikowo",
+    "location": "Port",
     "rooms": "2",
-    "floors": 1,
-    "area": 51,
-    "description": "Wynajmę lokal mieszkalny 2 pokojowy po generalnym remoncie na wysokim parterze przy ul. Różanej w Kołobrzegu osiedle Zieleniewo.Apartament można zobaczyć na krótkim filmiku wchodząc na youtube i wpisując - Luksusowy Nowy Apartament Kołobrzeg - Luxus Apartment Kolberg Polen. Dzięki dużym, nowym oknom apartament jest jasny i przestronny.Mieszkanie wykończone w wysokim, luksusowym standardzie. "
+    "floors": 3,
+    "area": 34,
+    "description": "Te wyjątkowe mieszkanie położone jest w samym sercu dzielnicy portowej Kołobrzegu przy ul. Morskiej. Wynajmę mieszkanie dwupokojowe w doskonałej lokalizacji w Kołobrzeskim Porcie.    Doskonała lokalizacja sprawia, że do wszystkich atrakcji kurortu: plaża, molo, latarnia morska, promenady czy też najlepszych restauracji w mieście można dotrzeć w kilka minut. Mieszkanie położone jest w najbardziej atrakcyjnym miejscu w Kołobrzegu, kilkadziesiąt metrów od plaży i kilkaset metrów od ścisłego centrum miasta."
   },
   {
     "id": 6,
     "title": "Mieszkanie 1 pokojowe",
     "img": [
-      "/images/id3/image1.webp",
-      "/images/id3/image2.webp",
-      "/images/id3/image3.webp",
-      "/images/id3/image4.webp",
-      "/images/id3/image5.webp"
+      "/images/id6/image1.webp",
+      "/images/id6/image2.webp",
+      "/images/id6/image3.webp",
+      "/images/id6/image4.webp",
+      "/images/id6/image5.webp"
     ],
-    "rent": 1400,
-    "location": "Uzdrowisko",
+    "rent": 1600,
+    "location": "Centrum",
     "rooms": "1",
+    "floors": 2,
+    "area": 32,
+    "description": "Na wynajem 1 pokojowe mieszkanie położone na II piętrze ,na nowo wybudowanym Osiedlu Słonecznym w Kołobrzegu.Oddane do użytkowania rok temu, świeżo wykończone i umeblowane. Okres najmu to minimum 12 miesięcy, z możliwością przedłużenia na kolejne okresy. Mieszkanie posiada powierzchnię użytkową 32 m2 i składa się z 1 pokoju z aneksem kuchennym, łazienki z WC oraz przedpokoju. Do mieszkania przynależy niewielki balkon."
+  },
+  {
+    "id":7,
+    "title": "Mieszkanie 3 pokojowe",
+    "img": [
+      "/images/id7/image1.webp",
+      "/images/id7/image2.webp",
+      "/images/id7/image3.webp",
+      "/images/id7/image4.webp",
+      "/images/id7/image5.webp"
+    ],
+    "rent": 2000,
+    "location": "Centrum",
+    "rooms": "3",
     "floors": 4,
-    "area": 27,
-    "description": "Do wynajęcia mieszkanie w centrum Kołobrzegu.Składające się z pokoju połączonego z półotwartą kuchnią, łazienki i przedpokoju.W mieszkaniu 4 duże okna z widokiem na zieleń drzew, bardzo dobrze doświetlające mieszkanie.Łazienka z kabiną prysznicową.Budynek bez windy."
+    "area": 74,
+    "description": "Duże mieszkanie do wynajęcia 74m w centrum Kołobrzegu przy ul. Kamiennej.Trzy pokoje. Osobna łazienka. Osobna toaleta. Ogrzewanie miejskie. Do mieszkania przynależy niewielki balkon."
   }
 ]

@@ -1,10 +1,32 @@
 import Image from 'next/image'
 import apartments from '../../data/apartments.json'
-const Apartments = () => {
+import Link from 'next/link';
+const Apartments = ({
+  searchParams,
+}: {
+  searchParams: { local: string; rent: number; rooms: number }
+}) => {
+  const { local, rent, rooms } = searchParams
+  console.log(local, rent, rooms)
+
   return (
     <div className='min-h-screen grid grid-cols-3 gap-4 px-24 py-12 place-items-center max-lg:grid-cols-2 max-sm:grid-cols-1 '>
-      {apartments.map((apartment) => (
-        <div
+      {apartments
+        .filter((apartment) => {
+          if (local && apartment.location !== local) {
+            return false
+          }
+          if (rent && apartment.rent > rent) {
+            return false
+          }
+          if (rooms && apartment.rooms !== rooms.toString()) {
+            return false
+          }
+          return true
+        })
+      .map((apartment) => (
+        <Link
+          href={`/apartment/${apartment.id}`}
           key={apartment.id}
           className='h-[360px] flex flex-col gap-2 p-4  rounded-lg  shadow-xl  border-2'
         >
@@ -19,7 +41,7 @@ const Apartments = () => {
           <p>Czynsz: {apartment.rent}</p>
           <p>Lokalizacja: {apartment.location}</p>
           <p>Ilość Pokoi: {apartment.rooms}</p>
-        </div>
+        </Link>
       ))}
     </div>
   )
