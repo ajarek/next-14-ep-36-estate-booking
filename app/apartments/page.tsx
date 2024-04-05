@@ -7,7 +7,7 @@ const Apartments = ({
   searchParams: { local: string; rent: number; rooms: number }
 }) => {
   const { local, rent, rooms } = searchParams
-  console.log(local, rent, rooms)
+ 
 
   return (
     <div className='min-h-screen grid grid-cols-3 gap-4 px-24 py-12 place-items-center max-lg:grid-cols-2 max-sm:grid-cols-1 '>
