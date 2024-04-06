@@ -8,23 +8,31 @@ const Apartments = ({
 }) => {
   const { local, rent, rooms } = searchParams
  
-
+  const apartmentsFilter =apartments
+  .filter((apartment) => {
+    if (local && apartment.location !== local) {
+      return false
+    }
+    if (rent && apartment.rent > rent) {
+      return false
+    }
+    if (rooms && apartment.rooms !== rooms.toString()) {
+      return false
+    }
+    return true
+  })
+  
   return (
-    <div className='min-h-screen grid grid-cols-3 gap-4 px-24 py-12 place-items-center max-lg:grid-cols-2 max-sm:grid-cols-1 '>
-      {apartments
-        .filter((apartment) => {
-          if (local && apartment.location !== local) {
-            return false
-          }
-          if (rent && apartment.rent > rent) {
-            return false
-          }
-          if (rooms && apartment.rooms !== rooms.toString()) {
-            return false
-          }
-          return true
-        })
-      .map((apartment) => (
+
+    <div className='min-h-screen grid grid-cols-3 gap-4 px-24 py-12 place-items-center max-lg:grid-cols-2 max-sm:grid-cols-1 relative '>
+      {apartmentsFilter.length===0?
+      <div className=' w-full h-4/5 absolute left-0 top-0 flex flex-col justify-center items-center gap-4'>
+        <p className='text-2xl font-semibold '>Brak wyników</p>
+        <Link href='/apartments' className='px-4 py-1 bg-primary text-primary-foreground rounded-sm'>Wyszukaj</Link>
+
+      </div>
+      :
+      apartmentsFilter.map((apartment) => (
         <Link
           href={`/apartment/${apartment.id}`}
           key={apartment.id}
