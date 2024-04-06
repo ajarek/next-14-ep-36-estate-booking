@@ -9,9 +9,8 @@ export default function Home() {
           Znajdź nieruchomość i swoje wymarzone miejsce
         </h1>
         <p>
-          Wyszukaj mieszkanie i zarezerwuj je na naszej platformie wpłacając
-          jako kaucje wartość jednomiesięcznego czynszu . Szukaj według
-          kryterium : lokalizacji, wysokości opłat, liczba pokoi.
+          Wyszukaj mieszkanie i wynajmij je na naszej platformie wpłacając
+           kaucje. <br /> Szukaj według kryterium : lokalizacji, wysokości opłat, liczba pokoi.
         </p>
         <SearchApartment />
         <div className='flex justify-between'>

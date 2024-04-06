@@ -8,6 +8,7 @@ type PropsApartment =
       title: string
       img: string[]
       rent: number
+      deposit: number
       location: string
       rooms: string
       floors: number
