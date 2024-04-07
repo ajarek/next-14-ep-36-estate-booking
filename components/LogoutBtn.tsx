@@ -9,7 +9,7 @@ const LogoutBtn = () => {
     router.push('/api/auth/signout')
     
   }
-  return <Button variant='destructive'  onClick={handleLogout}>Logout</Button>
+  return <Button variant='destructive'  onClick={handleLogout}>Wyloguj</Button>
 }
 
 export default LogoutBtn

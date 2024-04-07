@@ -39,14 +39,14 @@ const RegisterForm = () => {
 
   return (
     <div className=''>
-      <h1 className='text-3xl text-center font-bold my-4'>Register</h1>
+      <h1 className='text-3xl text-center font-bold my-4'>Rejestracja</h1>
       <form
         className='w-80  flex flex-col gap-4 p-6 shadow-xl border-2 rounded-sm'
         onSubmit={handleSubmit}
       >
         <Input
           type='text'
-          placeholder='username'
+          placeholder='Nazwisko i Imię'
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
@@ -58,13 +58,13 @@ const RegisterForm = () => {
         />
         <Input
           type='password'
-          placeholder='password'
+          placeholder='hasło'
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         <Input
           type='text'
-          placeholder='image'
+          placeholder='zdjęcie (niewymagane)'
           value={img}
           onChange={(e) => setImage(e.target.value)}
         />
@@ -77,10 +77,10 @@ const RegisterForm = () => {
           className=''
           type='submit'
         >
-          Register
+          Zarejestruj
         </Button>
         <Link href='/api/auth/signin'>
-          Have an account? <b>Login</b>
+          Masz konto? <b>Zaloguj</b>
         </Link>
       </form>
     </div>

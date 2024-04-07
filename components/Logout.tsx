@@ -11,7 +11,7 @@ const Logout = async ({ session }: any) => {
           className='px-4 py-1 bg-primary text-primary-foreground rounded-sm'
           href={'/register'}
         >
-          Login
+          Zaloguj
         </Link>
       )}
       {session && (
