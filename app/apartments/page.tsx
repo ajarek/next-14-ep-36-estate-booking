@@ -36,7 +36,7 @@ const Apartments = ({
         <Link
           href={`/apartment/${apartment.id}`}
           key={apartment.id}
-          className='h-[360px] flex flex-col gap-2 p-4  rounded-lg  shadow-xl  border-2'
+          className='h-[360px] flex flex-col gap-2 p-4  rounded-lg  shadow-xl  border border-yellow-400'
         >
           <Image
             src={apartment.img[0]}

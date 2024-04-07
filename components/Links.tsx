@@ -3,14 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
-
+import { usePathname } from 'next/navigation'
 const Links = () => {
   const [menu, setMenu] = useState(false)
-
+  const pathname = usePathname()
   return (
     <>
       <div
-        className='absolute left-1 top-6 lg:hidden cursor-pointer z-10'
+        className='absolute left-1 top-6 lg:hidden cursor-pointer z-30'
         onClick={() => setMenu(!menu)}
       >
         {menu ? (
@@ -47,53 +47,53 @@ const Links = () => {
           <div className='flex items-center gap-6'>
             <Link
               href='/'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${pathname === '/' ? 'active ' : 'px-4'}`}
             >
               Główna
             </Link>
             <Link
               href='/apartments'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/apartments' ? 'active ' : 'px-4'}`}
             >
              Lokale
             </Link>
             <Link
               href='/about-us'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/about-us' ? 'active ' : 'px-4'}`}
             >
               O Nas
             </Link>
             <Link
               href='/contact'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/contact' ? 'active ' : 'px-4'}`}
             >
               Kontakt
             </Link>
           </div>
         </div>
         {menu && (
-          <div className='absolute top-0 left-0 max-xl flex flex-col pt-20 pb-2 gap-6 bg-secondary lg:hidden'>
+          <div className='absolute top-0 left-0 w-40 flex flex-col pt-20 pb-4 px-4 gap-6 bg-secondary transition-all lg:hidden z-10'>
             <Link
               href='/'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${pathname === '/' ? 'active ' : 'px-4'}`}
             >
               Główna
             </Link>
             <Link
               href='/apartments'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/apartments' ? 'active ' : 'px-4'}`}
             >
               Lokale
             </Link>
             <Link
               href='/about-us'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/about-us' ? 'active ' : 'px-4'}`}
             >
               O Nas
             </Link>
             <Link
               href='/contact'
-              className=' px-4'
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/contact' ? 'active ' : 'px-4'}`}
             >
               Kontakt
             </Link>
