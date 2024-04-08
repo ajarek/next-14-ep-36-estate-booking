@@ -9,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![Zrzut ekranu 2024-04-08 213344](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/9a2717d6-32ff-4f08-a23c-91969d99ec2a)
 ![Zrzut ekranu 2024-04-08 213421](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/d91156ec-df97-401f-ac54-dd771828ae83)
-![Zrzut ekranu 2024-04-08 213512](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/3b1a1684-5d0a-46d1-89e8-fc031220ec4a)
+
 
 
 
