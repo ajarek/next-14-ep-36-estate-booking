@@ -10,7 +10,7 @@
       "/images/id1/image5.webp"
     ],
     "rent": 2300,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Uzdrowisko",
     "rooms": "2",
     "floors": 4,
@@ -28,7 +28,7 @@
       "/images/id2/image5.webp"
     ],
     "rent": 2500,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Radzikowo",
     "rooms": "2",
     "floors": 1,
@@ -46,7 +46,7 @@
       "/images/id3/image5.webp"
     ],
     "rent": 1400,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Centrum",
     "rooms": "1",
     "floors": 4,
@@ -64,7 +64,7 @@
       "/images/id4/image5.webp"
     ],
     "rent": 2000,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Centrum",
     "rooms": "2",
     "floors": 1,
@@ -82,7 +82,7 @@
       "/images/id5/image5.webp"
     ],
     "rent": 2500,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Port",
     "rooms": "2",
     "floors": 3,
@@ -100,7 +100,7 @@
       "/images/id6/image5.webp"
     ],
     "rent": 1600,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Centrum",
     "rooms": "1",
     "floors": 2,
@@ -108,7 +108,7 @@
     "description": "Na wynajem 1 pokojowe mieszkanie położone na II piętrze ,na nowo wybudowanym Osiedlu Słonecznym w Kołobrzegu.Oddane do użytkowania rok temu, świeżo wykończone i umeblowane. Okres najmu to minimum 12 miesięcy, z możliwością przedłużenia na kolejne okresy. Mieszkanie posiada powierzchnię użytkową 32 m2 i składa się z 1 pokoju z aneksem kuchennym, łazienki z WC oraz przedpokoju. Do mieszkania przynależy niewielki balkon."
   },
   {
-    "id":7,
+    "id": 7,
     "title": "Mieszkanie 3 pokojowe",
     "img": [
       "/images/id7/image1.webp",
@@ -118,7 +118,7 @@
       "/images/id7/image5.webp"
     ],
     "rent": 2000,
-    "deposit":3000,
+    "deposit": 3000,
     "location": "Centrum",
     "rooms": "3",
     "floors": 4,

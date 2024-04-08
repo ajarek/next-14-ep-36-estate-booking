@@ -38,34 +38,42 @@ const Links = () => {
             height={40}
             className=''
           />
-          <h1 className='font-semibold text-xl  '>
+          <div className='font-semibold text-xl max-lg:text-sm '>
             Kołobrzeg <br /> Wynajem Mieszkań
-          </h1>
+          </div>
         </Link>
 
         <div className=' max-lg:hidden flex '>
           <div className='flex items-center gap-6'>
             <Link
               href='/'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${pathname === '/' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${
+                pathname === '/' ? 'active ' : 'px-4'
+              }`}
             >
               Główna
             </Link>
             <Link
               href='/apartments'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/apartments' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/apartments' ? 'active ' : 'px-4'
+              }`}
             >
-             Lokale
+              Lokale
             </Link>
             <Link
               href='/about-us'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/about-us' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/about-us' ? 'active ' : 'px-4'
+              }`}
             >
               O Nas
             </Link>
             <Link
               href='/contact'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/contact' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/contact' ? 'active ' : 'px-4'
+              }`}
             >
               Kontakt
             </Link>
@@ -75,25 +83,33 @@ const Links = () => {
           <div className='absolute top-0 left-0 w-40 flex flex-col pt-20 pb-4 px-4 gap-6 bg-secondary transition-all lg:hidden z-10'>
             <Link
               href='/'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${pathname === '/' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition  ${
+                pathname === '/' ? 'active ' : 'px-4'
+              }`}
             >
               Główna
             </Link>
             <Link
               href='/apartments'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/apartments' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/apartments' ? 'active ' : 'px-4'
+              }`}
             >
               Lokale
             </Link>
             <Link
               href='/about-us'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/about-us' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/about-us' ? 'active ' : 'px-4'
+              }`}
             >
               O Nas
             </Link>
             <Link
               href='/contact'
-              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${pathname === '/contact' ? 'active ' : 'px-4'}`}
+              className={`hover:bg-primary rounded-sm px-4 py-1 transition ${
+                pathname === '/contact' ? 'active ' : 'px-4'
+              }`}
             >
               Kontakt
             </Link>

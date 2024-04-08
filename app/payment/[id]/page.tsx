@@ -11,7 +11,7 @@ const PaymentApartment = async ({ params }: { params: { id: string } }) => {
   }
   const apartment = apartments.find((apartment) => apartment.id === Number(id))
   return (
-    <div className='flex flex-col justify-center items-center min-h-[calc(100vh-80px)] gap-2'>
+    <div className='flex flex-col justify-center max-lg:justify-start items-center min-h-[calc(100vh-80px)] gap-2 p-4'>
       <div className='flex items-center gap-2 font-semibold'>
         <h1 className='font-normal'>Twój wybór: </h1>
         <Image

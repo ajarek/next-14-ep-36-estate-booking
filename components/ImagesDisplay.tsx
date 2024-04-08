@@ -26,9 +26,11 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           alt='apartment'
           width={500}
           height={300}
-          className='w-[500px] h-[300px] object-cover '
+          className='w-[100%] h-[300px] object-cover '
         />
-        <div className='absolute bottom-1 right-[calc(50%-25px)] text-red-600 text-xl font-semibold'>{index + 1}/5</div>
+        <div className='absolute bottom-1 right-[calc(50%-25px)] text-red-600 text-xl font-semibold'>
+          {index + 1}/5
+        </div>
       </div>
 
       <div className='flex'>
@@ -38,7 +40,7 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           width={100}
           height={60}
           onClick={() => setIndex(0)}
-          className='w-[100px] h-[80px] object-cover cursor-pointer active:border-2 '
+          className='w-[20%] h-[80px] object-cover cursor-pointer active:border-2 '
         />
         <Image
           src={apartment?.img[1] || ''}
@@ -46,7 +48,7 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           width={100}
           height={60}
           onClick={() => setIndex(1)}
-          className='w-[100px] h-[80px] object-cover  cursor-pointer active:border-2  '
+          className='w-[20%] h-[80px] object-cover  cursor-pointer active:border-2  '
         />
         <Image
           src={apartment?.img[2] || ''}
@@ -54,7 +56,7 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           width={100}
           height={60}
           onClick={() => setIndex(2)}
-          className='w-[100px] h-[80px] object-cover  cursor-pointer active:border-2 '
+          className='w-[20%] h-[80px] object-cover  cursor-pointer active:border-2 '
         />
         <Image
           src={apartment?.img[3] || ''}
@@ -62,7 +64,7 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           width={100}
           height={60}
           onClick={() => setIndex(3)}
-          className='w-[100px] h-[80px] object-cover  cursor-pointer active:border-2 '
+          className='w-[20%] h-[80px] object-cover  cursor-pointer active:border-2 '
         />
         <Image
           src={apartment?.img[4] || ''}
@@ -70,7 +72,7 @@ const ImagesDisplay = ({ apartment }: { apartment: PropsApartment }) => {
           width={100}
           height={60}
           onClick={() => setIndex(4)}
-          className='w-[100px] h-[80px] object-cover  cursor-pointer active:border-2 '
+          className='w-[20%] h-[80px] object-cover  cursor-pointer active:border-2 '
         />
       </div>
     </div>

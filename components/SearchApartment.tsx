@@ -23,7 +23,7 @@ const SearchApartment = () => {
  
 
   return (
-    <form className='flex items-center gap-1' onSubmit={handleSubmit}>
+    <form className='flex items-center gap-1 max-lg:flex-col' onSubmit={handleSubmit}>
       <Select
         defaultValue={local}
         onValueChange={(data) => setLocal(data)}
@@ -72,7 +72,7 @@ const SearchApartment = () => {
 
       <Button
         type='submit'
-        className='rounded-s-none'
+        className='rounded-s-none max-lg:w-full max-lg:rounded-sm '
       >
         <Search />
       </Button>
