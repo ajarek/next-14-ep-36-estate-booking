@@ -1,10 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-
-![Zrzut ekranu 2024-04-08 212923](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/bcce72ed-7c3f-4df8-b105-d4ee6c86ad5b)
-![Zrzut ekranu 2024-04-08 213037](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/a937c7f5-4cbb-4dc0-ad6c-1fea35a67f9c)
 ![Zrzut ekranu 2024-04-08 213149](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/e491bc73-acc0-453f-8731-5d0db3915fd2)
 ![Zrzut ekranu 2024-04-08 213310](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/9f063c1d-4ec8-4668-bcb4-6ae5ce26d35e)
+![Zrzut ekranu 2024-04-08 213037](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/a937c7f5-4cbb-4dc0-ad6c-1fea35a67f9c)
+![Zrzut ekranu 2024-04-08 212923](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/bcce72ed-7c3f-4df8-b105-d4ee6c86ad5b)
+
+
 
 ![Zrzut ekranu 2024-04-08 213344](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/9a2717d6-32ff-4f08-a23c-91969d99ec2a)
 ![Zrzut ekranu 2024-04-08 213421](https://github.com/ajarek/next-14-ep-36-estate-booking/assets/61388692/d91156ec-df97-401f-ac54-dd771828ae83)
