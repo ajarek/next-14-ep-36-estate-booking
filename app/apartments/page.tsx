@@ -38,14 +38,14 @@ const Apartments = ({
           <Link
             href={`/apartment/${apartment.id}`}
             key={apartment.id}
-            className='h-[360px] flex flex-col gap-2 p-4  rounded-lg  shadow-xl  border border-yellow-400 max-lg:w-full'
+            className='h-[360px] w-full flex flex-col gap-2 p-4  rounded-lg  shadow-xl  border border-yellow-400 max-lg:w-full'
           >
             <Image
               src={apartment.img[0]}
               alt='apartment'
               width={250}
               height={200}
-              className='w-[250px] h-[200px] object-cover rounded-lg '
+              className='w-[100%] h-[200px] object-cover rounded-lg '
             />
             <h1 className='text-lg font-semibold'>{apartment.title}</h1>
             <p>Czynsz: {apartment.rent}</p>
